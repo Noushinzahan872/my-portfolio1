@@ -1,0 +1,64 @@
+[
+
+{
+    "id": 1,
+    "title": "Historical Artifacts",
+    "description": "Artifacts Client is a modern, responsive web application built with React 19 and Vite that allows users to explore, like, and learn about historical artifacts from around the world.",
+    "techStack": "React, Express, MongoDB, Firebase",
+    "image": "https://i.ibb.co/nqWDxvzx/artifacts.png",
+    "livePreview": "https://artifacts-app.web.app/",
+    "viewCode": "https://github.com/Noushinzahan872/artifacts",
+
+    "limitations": [
+      "Limited payment gateway integration",
+      "No real-time vehicle tracking",
+      "Admin panel lacks advanced analytics"
+    ]
+  },
+
+
+  {
+    "id": 2,
+    "title": "Collaborative Hobby-Hub",
+    "description": " HobbyHub, a creative community platform for hobbyists! This is the frontend of the project, built with React, Vite, Tailwind CSS, and DaisyUI for blazing-fast performance and beautiful design.",
+    "techStack": "Tailwind CSS, React, Express, MongoDB, Firebase, JWT ,Stripe js ",
+    "image": "https://i.ibb.co/0RcKQ2fV/hobbes.png",
+    "livePreview": "https://hobby-group-db6e4.web.app/",
+    "viewCode": "https://github.com/Noushinzahan872/hobby-client",
+    "limitations": [
+      "",
+      "No automatic coupon expiration tracking",
+      "No push notification support for new deals"
+    ]
+  },
+  
+  {
+    "id": 3,
+    "title": "Event explorer",
+    "description": " Event, a creative community platform for hobbyists! This is the frontend of the project, built with React, Vite, Tailwind CSS, and DaisyUI for blazing-fast performance and beautiful design.",
+    "techStack": "React, Express, MongoDB, Firebase",
+    "image": "https://i.ibb.co/TqL1mQLJ/events.png",
+    "livePreview": "https://event-explorer-c42ea.web.app/",
+    "viewCode": "https://github.com/Noushinzahan872/event",
+    "limitations": [
+      "No user profile customization",
+      "Limited review moderation features",
+      "No multiplayer community interactions"
+    ]
+  },
+
+  {
+    "id": 4,
+    "title": "Dragon News",
+    "description": "Dragon-news-react, a creative community platform for hobbyists! This is the frontend of the project, built with React, Vite, Tailwind CSS, and DaisyUI for blazing-fast performance and beautiful design.",
+    "techStack": "React, Express, MongoDB, Firebase",
+    "image": "",
+    "livePreview": "",
+    "viewCode":"https://github.com/Noushinzahan872/dragon-news-react",
+    "limitations": [
+      "Limited to Bangladesh region",
+      "No automatic coupon expiration tracking",
+      "No push notification support for new deals"
+    ]
+  }
+]

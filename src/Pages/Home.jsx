@@ -1,0 +1,30 @@
+import React from "react";
+import About from "../components/About";
+import Banner from "../components/Banner";
+import ContactForm from "../components/ContactForm";
+import EducationSkillsSection from "../components/EducationSkillsSection";
+import Navbar from "../components/Navbar";
+import ProjectCard from "../components/ProjectCard";
+import Skill1 from "../components/Skill1";
+import Services from "../components/ui/Services";
+
+
+const Home = () => {
+  return (
+    <div>
+      <Navbar></Navbar>
+      {/* <NavBar1></NavBar1> */}
+      <Banner></Banner>
+      <About></About>
+      <Skill1></Skill1>
+
+      <EducationSkillsSection></EducationSkillsSection>
+      <ProjectCard></ProjectCard>
+      <Services></Services>
+      <ContactForm></ContactForm>
+    </div>
+  );
+};
+
+export default Home;
+<h1>home</h1>;
