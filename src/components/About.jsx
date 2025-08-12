@@ -23,7 +23,7 @@ const About = () => {
               >
                 Who I Am
               </h1>
-              <Typography variant="paragraph" className="text-lg leading-8 text-white">
+              {/* <Typography variant="paragraph" className="text-lg leading-8 text-white">
                 Hello! I’m{" "}
                 <span
                   onMouseEnter={() => gsap.to("#cursor", { scale: 4, duration: 0.3 })}
@@ -41,6 +41,33 @@ const About = () => {
               <br />
               <Typography variant="paragraph" className="text-lg leading-8 text-white">
                 Apart from coding, I love contributing to open-source projects, writing clean code, and collaborating with other developers. I’m also passionate about accessibility and strive to make the web inclusive for everyone.
+              </Typography> */}
+              <Typography variant="paragraph" className="text-lg leading-8 text-white">
+                1. Hello! I’m{" "}
+                <span
+                  onMouseEnter={() => gsap.to("#cursor", { scale: 4, duration: 0.3 })}
+                  onMouseLeave={() => gsap.to("#cursor", { scale: 1, duration: 0.3 })}
+                  className="font-bold text-[#10b981]"
+                >
+                  Noushin Zahan
+                </span>
+                , a passionate frontend developer specialized in React, Tailwind, Express, and MongoDB.
+              </Typography>
+              <br />
+              <Typography variant="paragraph" className="text-lg leading-8 text-white">
+                2. I began my programming journey focused on building clean, responsive, and accessible web applications that deliver real value to users.
+              </Typography>
+              <br />
+              <Typography variant="paragraph" className="text-lg leading-8 text-white">
+                3. I enjoy working on frontend development but am currently expanding my skills into backend technologies like Node.js and RESTful APIs to become a full-stack developer.
+              </Typography>
+              <br />
+              <Typography variant="paragraph" className="text-lg leading-8 text-white">
+                4. Outside programming, I love contributing to open-source projects, writing clean code, and collaborating with other developers. I also have interests in accessibility and inclusive web design.
+              </Typography>
+              <br />
+              <Typography variant="paragraph" className="text-lg leading-8 text-white">
+                5. I’m committed to continuous learning, experimenting with UI/UX patterns, and creating seamless user experiences, reflecting my passion and personality through every project.
               </Typography>
             </div>
           </div>
@@ -77,6 +104,18 @@ const About = () => {
                 <li>REST API, JWT Authentication</li>
                 <li>Git, GitHub, Figma</li>
               </ul>
+            </div>
+            <div className="p-5 border-l-4 border-[#10b981] bg-white/5 backdrop-blur-md rounded-lg shadow-md hover:shadow-lg transition duration-300">
+              <h2 className="text-xl font-semibold text-[#10b981] mb-2">Certification</h2>
+              <div className="text-sm space-y-1">
+                <p className="font-semibold">
+                  Programming Hero <span className="text-gray-400">– Full Stack Development</span>
+                </p>
+                <p className="text-gray-400">Completed in 2025</p>
+                <p className="text-white">
+                  Completed comprehensive course covering HTML, CSS, JavaScript, React, Node.js, and MongoDB.
+                </p>
+              </div>
             </div>
           </div>
         </div>

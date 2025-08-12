@@ -3,7 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import gsap from "gsap";
 import React, { useEffect, useRef } from "react";
-import { MdEmail, MdLocationOn } from "react-icons/md";
+import { MdEmail, MdLocationOn, MdPhone } from "react-icons/md";
 import Swal from "sweetalert2"; // Import SweetAlert2
 
 const ContactForm = () => {
@@ -68,6 +68,14 @@ const ContactForm = () => {
               <p className="text-gray-400">noushinsarker074@gmail.com</p>
             </div>
           </div>
+          
+<div className="flex items-center space-x-4 mt-4">
+  <MdPhone className="text-purple-400 text-2xl" />
+  <div>
+    <p className="font-semibold">Phone</p>
+    <p className="text-gray-400">+88 01948396872</p>
+  </div>
+</div>
           <div className="flex items-center space-x-4">
             <MdLocationOn className="text-purple-400 text-2xl" />
             <div>

@@ -7,6 +7,7 @@ import Navbar from "../components/Navbar";
 import ProjectCard from "../components/ProjectCard";
 import Skill1 from "../components/Skill1";
 import Services from "../components/ui/Services";
+import Footer from "./Footer";
 
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
       <ProjectCard></ProjectCard>
       <Services></Services>
       <ContactForm></ContactForm>
+      <Footer></Footer>
     </div>
   );
 };

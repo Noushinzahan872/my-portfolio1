@@ -50,6 +50,13 @@ const Banner = () => {
     >
       <div className="hero flex flex-col lg:flex-row justify-between  lg:w-11/12 mx-auto items-center py-10">
         <div className="w-full lg:w-1/2 px-6  lg:text-left">
+
+<img
+    src="https://i.ibb.co.com/HjpyrxH/6f6ba2dc-ef9c-43da-afb1-2053b5f1c51e.jpg"
+    alt="Noushin Zahan"
+    className="w-100 h-40 object-cover mb-8 mx-auto lg:mx-0 border-4 border-[#38bdf8] shadow-lg rounded-xl"
+  />
+
           <h1 className="text-4xl lg:text-5xl mt-16 md:m-0 font-bold">Hello</h1>
           <h1 className="text-3xl lg:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-[#10b981] to-[#38bdf8] mt-2">
             I am Noushin Zahan
