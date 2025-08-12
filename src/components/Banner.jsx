@@ -90,7 +90,7 @@ const Banner = () => {
               onMouseLeave={() =>
                 gsap.to("#cursor", { scale: 1, duration: 0.3 })
               }
-              href="https://drive.google.com/uc?export=download&id=1tXHChxehgU1PZOxdab146Xz3TLDjbcOJ"
+              href="https://drive.google.com/file/d/1ow9uPMn6Is1DS5Q_eo2ol95riNHA8tjq/view?usp=sharing"
               className="mt-6 text-center w-[180px] py-2 bg-gradient-to-r from-[#10b981] to-[#38bdf8] 
                text-white rounded-lg shadow-lg transform hover:scale-105 transition-all 
                duration-300 ease-in-out flex items-center justify-center hover:bg-gradient-to-l 
